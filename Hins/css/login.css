@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: auto; }
+  html #box, body #box {
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2; }
+    html #box .box-con, body #box .box-con {
+      width: 980px;
+      height: 100%;
+      margin: auto; }
+      html #box .box-con .con-header, body #box .box-con .con-header {
+        width: 100%;
+        height: 57px;
+        padding-top: 20px; }
+        html #box .box-con .con-header h1, body #box .box-con .con-header h1 {
+          float: left; }
+        html #box .box-con .con-header p, body #box .box-con .con-header p {
+          float: right;
+          height: 100%;
+          line-height: 57px;
+          font-size: 12px;
+          color: #666666; }
+          html #box .box-con .con-header p a, body #box .box-con .con-header p a {
+            color: #0078c6; }
+            html #box .box-con .con-header p a:hover, body #box .box-con .con-header p a:hover {
+              text-decoration: underline; }
+      html #box .box-con .con-main, body #box .box-con .con-main {
+        width: 100%;
+        height: 550px;
+        margin: 10px 0;
+        background: white;
+        position: relative; }
+        html #box .box-con .con-main .left, body #box .box-con .con-main .left {
+          width: 550px;
+          height: 390px;
+          float: left; }
+          html #box .box-con .con-main .left a, body #box .box-con .con-main .left a {
+            display: block;
+            width: 460px;
+            height: 330px;
+            margin-top: 60px;
+            margin-left: 90px; }
+        html #box .box-con .con-main .right, body #box .box-con .con-main .right {
+          width: 312px;
+          height: 480px;
+          border: 1px solid #e5e5e5;
+          float: left;
+          margin-top: 60px;
+          margin-left: 30px;
+          position: relative;
+          background: white;
+          display: none;
+          cursor: pointer; }
+          html #box .box-con .con-main .right .login-manner, body #box .box-con .con-main .right .login-manner {
+            height: 52px;
+            width: 52px;
+            position: absolute;
+            right: 0; }
+            html #box .box-con .con-main .right .login-manner span, body #box .box-con .con-main .right .login-manner span {
+              display: inline-block;
+              width: 101px;
+              height: 20px;
+              background: url(../images/save.png);
+              position: absolute;
+              top: 8px;
+              right: 42px;
+              font-size: 12px;
+              color: #e60044;
+              text-align: center;
+              line-height: 20px; }
+            html #box .box-con .con-main .right .login-manner img, body #box .box-con .con-main .right .login-manner img {
+              position: absolute;
+              right: 1px;
+              top: 1px; }
+          html #box .box-con .con-main .right .login-con, body #box .box-con .con-main .right .login-con {
+            width: 292px;
+            height: 448px;
+            margin-top: 38px;
+            padding-left: 20px;
+            font-size: 12px;
+            color: #666;
+            position: relative; }
+            html #box .box-con .con-main .right .login-con .login-input, body #box .box-con .con-main .right .login-con .login-input {
+              width: 100%;
+              height: 258px;
+              position: relative;
+              background: white; }
+              html #box .box-con .con-main .right .login-con .login-input input, body #box .box-con .con-main .right .login-con .login-input input {
+                width: 183px;
+                height: 18px;
+                border: 1px solid #999;
+                margin-top: 15px;
+                margin-bottom: 5px;
+                padding: 10px 10px;
+                padding-left: 45px; }
+                html #box .box-con .con-main .right .login-con .login-input input:hover, body #box .box-con .con-main .right .login-con .login-input input:hover {
+                  border: 1px solid #e60044; }
+              html #box .box-con .con-main .right .login-con .login-input #username, body #box .box-con .con-main .right .login-con .login-input #username {
+                background: url(../images/user.png) no-repeat;
+                background-position: 20px center; }
+              html #box .box-con .con-main .right .login-con .login-input #password, body #box .box-con .con-main .right .login-con .login-input #password {
+                background: url(../images/suo.png) no-repeat;
+                background-position: 20px center; }
+              html #box .box-con .con-main .right .login-con .login-input #sliding, body #box .box-con .con-main .right .login-con .login-input #sliding {
+                width: 240px;
+                height: 32px;
+                background: #f2f2f2;
+                margin-top: 15px;
+                position: relative; }
+                html #box .box-con .con-main .right .login-con .login-input #sliding #inf, body #box .box-con .con-main .right .login-con .login-input #sliding #inf {
+                  width: 100%;
+                  height: 100%;
+                  position: absolute;
+                  font-size: 12px;
+                  color: #4d4d4d;
+                  line-height: 32px;
+                  text-align: center;
+                  z-index: 2; }
+                html #box .box-con .con-main .right .login-con .login-input #sliding #bgc, body #box .box-con .con-main .right .login-con .login-input #sliding #bgc {
+                  height: 100%;
+                  background: #7ac23c;
+                  position: absolute;
+                  color: white;
+                  font-size: 12px;
+                  line-height: 32px;
+                  text-align: center; }
+                html #box .box-con .con-main .right .login-con .login-input #sliding #move, body #box .box-con .con-main .right .login-con .login-input #sliding #move {
+                  width: 40px;
+                  height: 32px;
+                  background: #fff;
+                  border: 1px solid #ccc;
+                  position: absolute;
+                  top: -1px;
+                  z-index: 3;
+                  line-height: 32px;
+                  color: #737383;
+                  text-align: center; }
+                  html #box .box-con .con-main .right .login-con .login-input #sliding #move i, body #box .box-con .con-main .right .login-con .login-input #sliding #move i {
+                    font-size: 12px;
+                    color: white;
+                    line-height: 20px;
+                    text-align: center;
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    background: #76c61d;
+                    float: left;
+                    border-radius: 50%;
+                    margin-top: 7px;
+                    margin-left: 10px;
+                    display: none; }
+              html #box .box-con .con-main .right .login-con .login-input .login-bar, body #box .box-con .con-main .right .login-con .login-input .login-bar {
+                width: 100%;
+                height: 62px;
+                margin-top: 31px; }
+                html #box .box-con .con-main .right .login-con .login-input .login-bar #login, body #box .box-con .con-main .right .login-con .login-input .login-bar #login {
+                  float: left;
+                  border: none;
+                  width: 122px;
+                  height: 42px;
+                  background: url(../images/login_signin.png);
+                  cursor: pointer; }
+                html #box .box-con .con-main .right .login-con .login-input .login-bar a, body #box .box-con .con-main .right .login-con .login-input .login-bar a {
+                  float: left;
+                  font-size: 12px;
+                  color: #666666;
+                  margin-top: 39px;
+                  margin-left: 35px; }
+                  html #box .box-con .con-main .right .login-con .login-input .login-bar a:hover, body #box .box-con .con-main .right .login-con .login-input .login-bar a:hover {
+                    text-decoration: underline; }
+              html #box .box-con .con-main .right .login-con .login-input .login-input2, body #box .box-con .con-main .right .login-con .login-input .login-input2 {
+                width: 100%;
+                height: 258px;
+                position: absolute;
+                background: white;
+                top: 0;
+                display: none;
+                z-index: 10; }
+                html #box .box-con .con-main .right .login-con .login-input .login-input2 input, body #box .box-con .con-main .right .login-con .login-input .login-input2 input {
+                  width: 183px;
+                  height: 18px;
+                  border: 1px solid #999;
+                  margin-top: 15px;
+                  margin-bottom: 5px;
+                  padding: 10px 10px;
+                  padding-left: 45px; }
+                  html #box .box-con .con-main .right .login-con .login-input .login-input2 input:hover, body #box .box-con .con-main .right .login-con .login-input .login-input2 input:hover {
+                    border: 1px solid #e60044; }
+                html #box .box-con .con-main .right .login-con .login-input .login-input2 #username, body #box .box-con .con-main .right .login-con .login-input .login-input2 #username {
+                  background: url(../images/user.png) no-repeat;
+                  background-position: 20px center; }
+                html #box .box-con .con-main .right .login-con .login-input .login-input2 .sliding, body #box .box-con .con-main .right .login-con .login-input .login-input2 .sliding {
+                  width: 240px;
+                  height: 32px;
+                  background: #f2f2f2;
+                  margin-top: 15px;
+                  position: relative; }
+                  html #box .box-con .con-main .right .login-con .login-input .login-input2 .sliding #inf, body #box .box-con .con-main .right .login-con .login-input .login-input2 .sliding #inf {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    font-size: 12px;
+                    color: #4d4d4d;
+                    line-height: 32px;
+                    text-align: center;
+                    z-index: 2; }
+                  html #box .box-con .con-main .right .login-con .login-input .login-input2 .sliding #bgc, body #box .box-con .con-main .right .login-con .login-input .login-input2 .sliding #bgc {
+                    height: 100%;
+                    background: #7ac23c;
+                    position: absolute;
+                    color: white;
+                    font-size: 12px;
+                    line-height: 32px;
+                    text-align: center; }
+                  html #box .box-con .con-main .right .login-con .login-input .login-input2 .sliding #move, body #box .box-con .con-main .right .login-con .login-input .login-input2 .sliding #move {
+                    width: 40px;
+                    height: 32px;
+                    background: #fff;
+                    border: 1px solid #ccc;
+                    position: absolute;
+                    top: -1px;
+                    z-index: 3;
+                    line-height: 32px;
+                    color: #737383;
+                    text-align: center; }
+                    html #box .box-con .con-main .right .login-con .login-input .login-input2 .sliding #move i, body #box .box-con .con-main .right .login-con .login-input .login-input2 .sliding #move i {
+                      font-size: 12px;
+                      color: white;
+                      line-height: 20px;
+                      text-align: center;
+                      display: block;
+                      width: 20px;
+                      height: 20px;
+                      background: #76c61d;
+                      float: left;
+                      border-radius: 50%;
+                      margin-top: 7px;
+                      margin-left: 10px;
+                      display: none; }
+                html #box .box-con .con-main .right .login-con .login-input .login-input2 #password, body #box .box-con .con-main .right .login-con .login-input .login-input2 #password {
+                  width: 83px;
+                  background: url(../images/suo.png) no-repeat;
+                  background-position: 20px center; }
+                html #box .box-con .con-main .right .login-con .login-input .login-input2 .gain, body #box .box-con .con-main .right .login-con .login-input .login-input2 .gain {
+                  width: 89px;
+                  height: 40px;
+                  padding-left: 8px;
+                  font-size: 12px;
+                  background: #f9f9f9;
+                  color: #999;
+                  margin-left: 8px; }
+                html #box .box-con .con-main .right .login-con .login-input .login-input2 .login-bar, body #box .box-con .con-main .right .login-con .login-input .login-input2 .login-bar {
+                  width: 100%;
+                  height: 62px;
+                  margin-top: 31px; }
+                  html #box .box-con .con-main .right .login-con .login-input .login-input2 .login-bar #login, body #box .box-con .con-main .right .login-con .login-input .login-input2 .login-bar #login {
+                    float: left;
+                    border: none;
+                    width: 122px;
+                    height: 42px;
+                    background: url(../images/login_signin.png); }
+                  html #box .box-con .con-main .right .login-con .login-input .login-input2 .login-bar a, body #box .box-con .con-main .right .login-con .login-input .login-input2 .login-bar a {
+                    float: left;
+                    font-size: 12px;
+                    color: #666666;
+                    margin-top: 39px;
+                    margin-left: 35px; }
+                    html #box .box-con .con-main .right .login-con .login-input .login-input2 .login-bar a:hover, body #box .box-con .con-main .right .login-con .login-input .login-input2 .login-bar a:hover {
+                      text-decoration: underline; }
+            html #box .box-con .con-main .right .login-con .else-way, body #box .box-con .con-main .right .login-con .else-way {
+              width: 100%;
+              height: 85px;
+              margin-top: 20px; }
+              html #box .box-con .con-main .right .login-con .else-way h3, body #box .box-con .con-main .right .login-con .else-way h3 {
+                width: 100%;
+                font-size: 12px;
+                color: #666; }
+              html #box .box-con .con-main .right .login-con .else-way p, body #box .box-con .con-main .right .login-con .else-way p {
+                margin-top: 15px;
+                width: 100%;
+                height: 33px; }
+                html #box .box-con .con-main .right .login-con .else-way p a, body #box .box-con .con-main .right .login-con .else-way p a {
+                  margin-right: 10px; }
+        html #box .box-con .con-main .right2, body #box .box-con .con-main .right2 {
+          width: 312px;
+          height: 480px;
+          border: 1px solid #e5e5e5;
+          margin-top: 60px;
+          margin-left: 30px;
+          position: absolute;
+          right: 86px;
+          background: white;
+          cursor: pointer; }
+          html #box .box-con .con-main .right2 .login-manner2, body #box .box-con .con-main .right2 .login-manner2 {
+            height: 52px;
+            width: 52px;
+            position: absolute;
+            right: 0; }
+            html #box .box-con .con-main .right2 .login-manner2 span, body #box .box-con .con-main .right2 .login-manner2 span {
+              display: inline-block;
+              width: 101px;
+              height: 20px;
+              background: url(../images/save.png);
+              position: absolute;
+              top: 8px;
+              right: 42px;
+              font-size: 12px;
+              color: #e60044;
+              text-align: center;
+              line-height: 20px; }
+            html #box .box-con .con-main .right2 .login-manner2 img, body #box .box-con .con-main .right2 .login-manner2 img {
+              position: absolute;
+              right: 1px;
+              top: 1px; }
+          html #box .box-con .con-main .right2 .login-con, body #box .box-con .con-main .right2 .login-con {
+            width: 292px;
+            height: 448px;
+            margin-top: 38px;
+            padding-left: 20px;
+            font-size: 12px;
+            color: #666; }
+            html #box .box-con .con-main .right2 .login-con .safe-login, body #box .box-con .con-main .right2 .login-con .safe-login {
+              font-size: 20px;
+              color: #333333; }
+            html #box .box-con .con-main .right2 .login-con .open-ewm, body #box .box-con .con-main .right2 .login-con .open-ewm {
+              width: 267px;
+              height: 24px;
+              font-size: 14px;
+              color: #333;
+              margin-top: 24px;
+              padding-left: 25px; }
+              html #box .box-con .con-main .right2 .login-con .open-ewm img, body #box .box-con .con-main .right2 .login-con .open-ewm img {
+                vertical-align: middle; }
+              html #box .box-con .con-main .right2 .login-con .open-ewm span, body #box .box-con .con-main .right2 .login-con .open-ewm span {
+                vertical-align: middle;
+                padding-left: 6px; }
+                html #box .box-con .con-main .right2 .login-con .open-ewm span a, body #box .box-con .con-main .right2 .login-con .open-ewm span a {
+                  color: #e60044; }
+                  html #box .box-con .con-main .right2 .login-con .open-ewm span a:hover, body #box .box-con .con-main .right2 .login-con .open-ewm span a:hover {
+                    text-decoration: underline; }
+            html #box .box-con .con-main .right2 .login-con .QRcode, body #box .box-con .con-main .right2 .login-con .QRcode {
+              width: 140px;
+              height: 140px;
+              border: 1px solid #999;
+              margin-top: 28px;
+              margin-left: 64px;
+              text-align: center;
+              color: #58bc58; }
+              html #box .box-con .con-main .right2 .login-con .QRcode p, body #box .box-con .con-main .right2 .login-con .QRcode p {
+                margin-top: 45px;
+                line-height: 24px;
+                font-size: 14px; }
+            html #box .box-con .con-main .right2 .login-con .lor, body #box .box-con .con-main .right2 .login-con .lor {
+              width: 267px;
+              height: 30px;
+              padding-right: 20px;
+              line-height: 30px;
+              margin-top: 14px; }
+              html #box .box-con .con-main .right2 .login-con .lor span, body #box .box-con .con-main .right2 .login-con .lor span {
+                float: right; }
+                html #box .box-con .con-main .right2 .login-con .lor span a, body #box .box-con .con-main .right2 .login-con .lor span a {
+                  color: #333;
+                  font-size: 14px; }
+                html #box .box-con .con-main .right2 .login-con .lor span .bgc:hover, body #box .box-con .con-main .right2 .login-con .lor span .bgc:hover {
+                  text-decoration: underline;
+                  color: #e60044; }
+            html #box .box-con .con-main .right2 .login-con .else-way, body #box .box-con .con-main .right2 .login-con .else-way {
+              width: 100%;
+              height: 85px;
+              margin-top: 10px; }
+              html #box .box-con .con-main .right2 .login-con .else-way h3, body #box .box-con .con-main .right2 .login-con .else-way h3 {
+                width: 100%;
+                font-size: 12px;
+                color: #666; }
+              html #box .box-con .con-main .right2 .login-con .else-way p, body #box .box-con .con-main .right2 .login-con .else-way p {
+                margin-top: 15px;
+                width: 100%;
+                height: 33px; }
+                html #box .box-con .con-main .right2 .login-con .else-way p a, body #box .box-con .con-main .right2 .login-con .else-way p a {
+                  margin-right: 10px; }
+    html #box .con-footer, body #box .con-footer {
+      width: 100%;
+      height: 60px;
+      padding-top: 10px;
+      padding-bottom: 30px;
+      margin-bottom: 20px;
+      background: white; }
+      html #box .con-footer p, body #box .con-footer p {
+        font-size: 12px;
+        color: #999;
+        text-align: center;
+        margin-top: 10px; }
+        html #box .con-footer p a, body #box .con-footer p a {
+          color: #999; }
+          html #box .con-footer p a:hover, body #box .con-footer p a:hover {
+            text-decoration: underline; }
+        html #box .con-footer p .wangzhan, body #box .con-footer p .wangzhan {
+          display: inline-block;
+          width: 70px;
+          height: 26px;
+          margin-left: 10px;
+          margin-top: 5px; }
+        html #box .con-footer p .border, body #box .con-footer p .border {
+          border: 1px solid #cacad1; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: auto;
+    #box{
+        width: 100%;
+        height: 100%;
+        background: #f2f2f2;
+        .box-con{
+            width: 980px;
+            height: 100%;
+            margin: auto;
+            .con-header{
+                width: 100%;
+                height: 57px;
+                padding-top: 20px;
+                h1{
+                    float: left;
+                }
+                p{
+                    float: right;
+                    height: 100%;
+                    line-height: 57px;
+                    font-size: 12px;
+                    color: #666666;
+                    a{
+                        color: #0078c6;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            .con-main{
+                width: 100%;
+                height: 550px;
+                margin: 10px 0;
+                background: white;
+                position: relative;
+                .left{
+                    width: 550px;
+                    height: 390px;
+                    float: left;
+                    a{
+                        display: block;
+                        width: 460px;
+                        height: 330px;
+                        margin-top: 60px;
+                        margin-left: 90px;
+                    }
+                }
+                
+                .right{
+                    width: 312px;
+                    height: 480px;
+                    border: 1px solid #e5e5e5;
+                    float: left;
+                    margin-top: 60px;
+                    margin-left: 30px;
+                    position: relative;
+                    background: white;
+                    display: none;
+                    cursor: pointer;
+                    .login-manner{
+                        height: 52px;
+                        width: 52px;
+                        position: absolute;
+                        right: 0;
+                        span{
+                            display: inline-block;
+                            width: 101px;
+                            height: 20px;
+                            background: url(../images/save.png);
+                            position: absolute;
+                            top: 8px;
+                            right: 42px;
+                            font-size: 12px;
+                            color: #e60044;
+                            text-align: center;
+                            line-height: 20px
+                        }
+                        img{
+                            position: absolute;
+                            right: 1px;
+                            top: 1px;
+                        }
+                    }
+                    .login-con{
+                        width: 292px;
+                        height: 448px;
+                        margin-top: 38px;
+                        padding-left: 20px;
+                        font-size: 12px;
+                        color: #666;
+                        position: relative;
+                        .login-input{
+                            width: 100%;
+                            height: 258px;
+                            position: relative;
+                            background: white;
+                            input{
+                                width: 183px;
+                                height: 18px;
+                                border: 1px solid #999;
+                                margin-top: 15px;
+                                margin-bottom: 5px;
+                                padding: 10px 10px;
+                                padding-left: 45px;
+                                &:hover{
+                                    border: 1px solid #e60044;
+                                }
+                            }
+                            #username{
+                                background: url(../images/user.png)no-repeat;
+                                background-position: 20px center
+                            }
+                            #password{
+                                background: url(../images/suo.png)no-repeat;
+                                background-position: 20px center
+                            }
+                            #sliding{
+                                width: 240px;
+                                height: 32px;
+                                background: #f2f2f2;
+                                margin-top: 15px;
+                                position: relative;
+                                #inf{
+                                    width: 100%;
+                                    height: 100%;
+                                    position: absolute;
+                                    font-size: 12px;
+                                    color: #4d4d4d;
+                                    line-height: 32px;
+                                    text-align: center;
+                                    z-index: 2;
+                                }
+                                #bgc{
+                                    height: 100%;
+                                    background: #7ac23c;
+                                    position: absolute;
+                                    color: white;
+                                    font-size: 12px;
+                                    line-height: 32px;
+                                    text-align: center;
+                                }
+                                #move{
+                                    width: 40px;
+                                    height: 32px;
+                                    background: #fff;
+                                    border: 1px solid #ccc;
+                                    position:absolute;
+                                    top: -1px;
+                                    z-index: 3;
+                                    line-height: 32px;
+                                    color: #737383;
+                                    text-align: center;
+                                    i{
+                                        font-size: 12px;
+                                        color: white;
+                                        line-height: 20px;
+                                        text-align: center;
+                                        display: block;
+                                        width: 20px;
+                                        height: 20px;
+                                        background: #76c61d;
+                                        float: left;
+                                        border-radius: 50%;
+                                        margin-top: 7px;
+                                        margin-left: 10px;
+                                        display: none;
+                                    }
+                                }
+                            }
+                            .login-bar{
+                                width: 100%;
+                                height: 62px;
+                                margin-top: 31px;
+                                #login{
+                                    float: left;
+                                    border: none;
+                                    width: 122px;
+                                    height: 42px;
+                                    background: url(../images/login_signin.png);
+                                    cursor: pointer;
+                                }
+                                a{
+                                    float: left;
+                                    font-size: 12px;
+                                    color: #666666;
+                                    margin-top: 39px;
+                                    margin-left: 35px;
+                                    &:hover{
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+
+                            .login-input2{
+                                width: 100%;
+                                height: 258px;
+                                position: absolute;
+                                background: white;
+                                top: 0;
+                                display: none;
+                                z-index: 10;
+                                input{
+                                    width: 183px;
+                                    height: 18px;
+                                    border: 1px solid #999;
+                                    margin-top: 15px;
+                                    margin-bottom: 5px;
+                                    padding: 10px 10px;
+                                    padding-left: 45px;
+                                    &:hover{
+                                        border: 1px solid #e60044;
+                                    }
+                                }
+                                #username{
+                                    background: url(../images/user.png)no-repeat;
+                                    background-position: 20px center
+                                }
+                                .sliding{
+                                    width: 240px;
+                                    height: 32px;
+                                    background: #f2f2f2;
+                                    margin-top: 15px;
+                                    position: relative;
+                                    #inf{
+                                        width: 100%;
+                                        height: 100%;
+                                        position: absolute;
+                                        font-size: 12px;
+                                        color: #4d4d4d;
+                                        line-height: 32px;
+                                        text-align: center;
+                                        z-index: 2;
+                                    }
+                                    #bgc{
+                                        height: 100%;
+                                        background: #7ac23c;
+                                        position: absolute;
+                                        color: white;
+                                        font-size: 12px;
+                                        line-height: 32px;
+                                        text-align: center;
+                                    }
+                                    #move{
+                                        width: 40px;
+                                        height: 32px;
+                                        background: #fff;
+                                        border: 1px solid #ccc;
+                                        position:absolute;
+                                        top: -1px;
+                                        z-index: 3;
+                                        line-height: 32px;
+                                        color: #737383;
+                                        text-align: center;
+                                        i{
+                                            font-size: 12px;
+                                            color: white;
+                                            line-height: 20px;
+                                            text-align: center;
+                                            display: block;
+                                            width: 20px;
+                                            height: 20px;
+                                            background: #76c61d;
+                                            float: left;
+                                            border-radius: 50%;
+                                            margin-top: 7px;
+                                            margin-left: 10px;
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                #password{
+                                    width: 83px;
+                                    background: url(../images/suo.png)no-repeat;
+                                    background-position: 20px center
+                                }
+                                .gain{
+                                    width: 89px;
+                                    height: 40px;
+                                    padding-left: 8px;
+                                    font-size: 12px;
+                                    background: #f9f9f9;
+                                    color: #999;
+                                    margin-left: 8px;
+                                }
+
+                                .login-bar{
+                                    width: 100%;
+                                    height: 62px;
+                                    margin-top: 31px;
+                                    #login{
+                                        float: left;
+                                        border: none;
+                                        width: 122px;
+                                        height: 42px;
+                                        background: url(../images/login_signin.png)
+                                    }
+                                    a{
+                                        float: left;
+                                        font-size: 12px;
+                                        color: #666666;
+                                        margin-top: 39px;
+                                        margin-left: 35px;
+                                        &:hover{
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .else-way{
+                            width: 100%;
+                            height:85px;
+                            margin-top: 20px;
+                            h3{
+                                width: 100%;
+                                font-size: 12px;
+                                color: #666; 
+                            }
+                            p{
+                                margin-top: 15px;
+                                width: 100%;
+                                height: 33px;
+                                a{
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+
+                .right2{
+                    width: 312px;
+                    height: 480px;
+                    border: 1px solid #e5e5e5;
+                    margin-top: 60px;
+                    margin-left: 30px;
+                    position: absolute;
+                    right: 86px;
+                    background: white;
+                    cursor: pointer;
+
+                    .login-manner2{
+                        height: 52px;
+                        width: 52px;
+                        position: absolute;
+                        right: 0;
+                        span{
+                            display: inline-block;
+                            width: 101px;
+                            height: 20px;
+                            background: url(../images/save.png);
+                            position: absolute;
+                            top: 8px;
+                            right: 42px;
+                            font-size: 12px;
+                            color: #e60044;
+                            text-align: center;
+                            line-height: 20px
+                        }
+                        img{
+                            position: absolute;
+                            right: 1px;
+                            top: 1px;
+                        }
+                    }
+                    .login-con{
+                        width: 292px;
+                        height: 448px;
+                        margin-top: 38px;
+                        padding-left: 20px;
+                        font-size: 12px;
+                        color: #666;
+                        .safe-login{
+                            font-size: 20px;
+                            color: #333333
+                        }
+                        .open-ewm{
+                            width: 267px;
+                            height: 24px;
+                            font-size: 14px;
+                            color: #333;
+                            margin-top: 24px;
+                            padding-left: 25px;
+                            img{
+                                vertical-align: middle
+                            }
+                            span{
+                                vertical-align: middle;
+                                padding-left: 6px;
+                                a{
+                                    color: #e60044;
+                                    &:hover{
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                        .QRcode{
+                            width: 140px;
+                            height: 140px;
+                            border: 1px solid #999;
+                            margin-top: 28px;
+                            margin-left: 64px;
+                            text-align: center;
+                            color: #58bc58;
+                            p{
+                                margin-top: 45px;
+                                line-height: 24px;
+                                font-size: 14px;
+                            }
+                        }
+                        .lor{
+                            width: 267px;
+                            height: 30px;
+                            padding-right: 20px;
+                            line-height: 30px;
+                            margin-top: 14px;
+                            span{
+                                float: right;
+                                a{
+                                    color: #333;
+                                    font-size: 14px;
+                                }
+                                .bgc:hover{
+                                    text-decoration: underline;
+                                    color: #e60044;
+
+                                }
+                            }
+                        }
+
+                        .else-way{
+                            width: 100%;
+                            height:85px;
+                            margin-top: 10px;
+                            h3{
+                                width: 100%;
+                                font-size: 12px;
+                                color: #666; 
+                            }
+                            p{
+                                margin-top: 15px;
+                                width: 100%;
+                                height: 33px;
+                                a{
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+
+
+                    }
+
+                }
+            }
+        }
+
+        .con-footer{
+            width: 100%;
+            height: 60px;
+            padding-top: 10px;
+            padding-bottom: 30px;
+            margin-bottom: 20px;
+            background: white;
+            p{
+                font-size: 12px;
+                color: #999;
+                text-align: center;
+                margin-top: 10px;
+                a{
+                    color: #999;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                .wangzhan{
+                    display: inline-block;
+                    width: 70px;
+                    height: 26px;
+                    margin-left: 10px;
+                    margin-top: 5px;
+                }
+                .border{
+                    border: 1px solid #cacad1
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

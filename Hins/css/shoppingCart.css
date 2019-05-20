@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+}
+
+#box {
+  width: 100%;
+  height: 100%;
+}
+#box #top-nav {
+  width: 100%;
+  height: 30px;
+  background: #fafafa;
+}
+#box #top-nav .f-right {
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  width: 980px;
+  margin: auto;
+}
+#box #top-nav .f-right .top-nav-list {
+  overflow: hidden;
+  height: 100%;
+  float: right;
+}
+#box #top-nav .f-right .top-nav-list li {
+  float: left;
+  font-size: 12px;
+  border-left: 1px solid #e5e5e5;
+  padding: 0 10px;
+  margin-top: 7px;
+}
+#box #top-nav .f-right .top-nav-list li:nth-child(1) {
+  border-left: none;
+}
+#box #top-nav .f-right .top-nav-list li:nth-child(8) {
+  padding-right: 0;
+}
+#box #top-nav .f-right .top-nav-list .icon-img {
+  height: 14px;
+  margin-top: -3px;
+}
+#box #top-nav .f-right .top-nav-list .cat-nums {
+  font-size: 13px;
+  color: #cf201c;
+  font-weight: bolder;
+}
+#box #top-nav .f-right .top-nav-list a {
+  color: #999999;
+}
+#box #top-nav .f-right .top-nav-list a:hover {
+  color: #ec1611;
+}
+#box #top-nav .f-right .top-nav-list .username {
+  color: #999999;
+}
+#box #top-nav .f-right .top-nav-list .username #name a {
+  color: #ec1611;
+}
+#box #top-nav .f-right .top-nav-list .username .level {
+  background: url(../images/tb_bg2_new.png);
+  width: 16px;
+  height: 12px;
+  margin-top: 3px;
+  float: right;
+  margin-left: 5px;
+}
+#box #header {
+  width: 100%;
+  height: 65px;
+  padding-top: 30px;
+}
+#box #header .h-con {
+  width: 980px;
+  height: 100%;
+  margin: auto;
+}
+#box #header .h-con h2 {
+  float: left;
+}
+#box #header .h-con .step {
+  float: right;
+  margin-top: 8px;
+}
+#box #cart {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+#box #cart .border-box {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #ec1611;
+  top: 52px;
+}
+#box #cart .cart-con {
+  width: 980px;
+  height: 100%;
+  margin: auto;
+}
+#box #cart .cart-con .cart-header {
+  width: 100%;
+  height: 28px;
+  padding: 12px 0;
+}
+#box #cart .cart-con .cart-header .cart-num {
+  float: left;
+  line-height: 28px;
+  font-size: 18px;
+  color: #333;
+}
+#box #cart .cart-con .cart-header .cart-num span {
+  font-weight: 700;
+  color: #ec1611;
+  font-size: 17px;
+}
+#box #cart .cart-con .cart-header .path {
+  float: right;
+}
+#box #cart .cart-con .cart-inf {
+  width: 980px;
+  padding-top: 2px;
+}
+#box #cart .cart-con .cart-inf .cart-inf-head {
+  width: 948px;
+  height: 20px;
+  padding: 20px 16px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #333;
+  font-weight: 700;
+}
+#box #cart .cart-con .cart-inf .cart-inf-head input {
+  float: left;
+  margin-top: 3.5px;
+  cursor: pointer;
+}
+#box #cart .cart-con .cart-inf .cart-inf-head label {
+  float: left;
+  margin-left: 8px;
+  cursor: pointer;
+}
+#box #cart .cart-con .cart-inf .cart-inf-head label:hover {
+  text-decoration: underline;
+  color: #ec1611;
+}
+#box #cart .cart-con .cart-inf .cart-inf-head .commodity {
+  float: left;
+  margin-left: 150px;
+}
+#box #cart .cart-con .cart-inf .cart-inf-head .head-right {
+  float: right;
+}
+#box #cart .cart-con .cart-inf .cart-inf-head .head-right p {
+  float: left;
+}
+#box #cart .cart-con .cart-inf .cart-inf-head .head-right .o-t {
+  padding: 0 75px;
+}
+#box #cart .cart-con .cart-inf .cart-inf-head .head-right .t-f {
+  padding: 0 30px;
+}
+#box #cart .cart-con .cart-inf .cart-item {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  text-align: center;
+}
+#box #cart .cart-con .cart-inf .cart-item li {
+  width: 977px;
+  height: 96px;
+  background: #fafafa;
+  border: 1px solid #f2f2f2;
+  padding-top: 15px;
+}
+#box #cart .cart-con .cart-inf .cart-item li div {
+  float: left;
+}
+#box #cart .cart-con .cart-inf .cart-item li .inp {
+  padding-left: 39px;
+  padding-right: 10px;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-inf {
+  width: 410px;
+  height: 82px;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-inf p {
+  float: left;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-inf .pic {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #f2f2f2;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-inf .pic img {
+  width: 100%;
+  height: 100%;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-inf .title {
+  width: 135px;
+  height: 76px;
+  background: #fafafa;
+  font-size: 12px;
+  padding-top: 5px;
+  margin-right: 35px;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-inf .title a {
+  color: #333;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-inf .title a:hover {
+  color: #ec1611;
+  text-decoration: underline;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-inf .title span {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: #ec1611;
+  border-radius: 4px;
+  color: white;
+  margin-right: 4px;
+  text-align: center;
+  margin-top: 8px;
+  cursor: pointer;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-inf .color-size {
+  width: 145px;
+  height: 75px;
+  margin-top: 5px;
+  padding-left: 5px;
+  border: 1px dashed #f2f2f2;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-inf .color-size span {
+  font-size: 12px;
+  color: #999;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-inf .color-size i {
+  font-size: 12px;
+  color: #999;
+}
+#box #cart .cart-con .cart-inf .cart-item li .discounts {
+  width: 144px;
+  height: 32px;
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #999;
+  text-align: left;
+}
+#box #cart .cart-con .cart-inf .cart-item li .amount {
+  margin-top: 6px;
+  margin-left: 30px;
+}
+#box #cart .cart-con .cart-inf .cart-item li .amount i {
+  float: left;
+  width: 22px;
+  height: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}
+#box #cart .cart-con .cart-inf .cart-item li .amount #num {
+  float: left;
+  width: 25px;
+  height: 16px;
+  border: 1px solid #ccc;
+  padding: 2px 5px;
+  text-align: center;
+  border-left: none;
+  border-right: none;
+}
+#box #cart .cart-con .cart-inf .cart-item li .sp-price {
+  color: #ff0600;
+  text-align: center;
+  width: 80px;
+  font-weight: 700;
+  padding-left: 41px;
+  padding-right: 30px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+#box #cart .cart-con .cart-inf .cart-item li .handle {
+  margin-left: 10px;
+}
+#box #cart .cart-con .cart-inf .cart-item li .handle a {
+  color: #666;
+  cursor: pointer;
+  font-size: 12px;
+}
+#box #cart .cart-con .cart-inf .cart-item li .handle a:hover {
+  text-decoration: underline;
+  color: #ec1611;
+}
+#box #cart .cart-con .cart-inf .accounts {
+  width: 962px;
+  border: 1px solid #f3f3f3;
+  padding-left: 16px;
+  height: 44px;
+  line-height: 44px;
+}
+#box #cart .cart-con .cart-inf .accounts input {
+  cursor: pointer;
+  font-size: 18px;
+  color: #999;
+  background: #ddd;
+}
+#box #cart .cart-con .cart-inf .accounts label {
+  font-size: 12px;
+  color: #333;
+  padding-left: 4px;
+  cursor: pointer;
+}
+#box #cart .cart-con .cart-inf .accounts label:hover {
+  text-decoration: underline;
+  color: #ec1611;
+}
+#box #cart .cart-con .cart-inf .accounts .del {
+  font-size: 12px;
+  color: #333;
+  padding-left: 20px;
+  cursor: pointer;
+}
+#box #cart .cart-con .cart-inf .accounts .del:hover {
+  text-decoration: underline;
+  color: #ec1611;
+}
+#box #cart .cart-con .cart-inf .accounts .accounts-r {
+  height: 44px;
+  float: right;
+}
+#box #cart .cart-con .cart-inf .accounts .accounts-r .m-t {
+  margin-top: 2px;
+}
+#box #cart .cart-con .cart-inf .accounts .accounts-r li {
+  font-size: 12px;
+  color: #333;
+  float: left;
+  margin-left: 15px;
+}
+#box #cart .cart-con .cart-inf .accounts .accounts-r li #clearing {
+  width: 150px;
+  height: 44px;
+  margin-top: -3px;
+}
+#box #cart .cart-con .cart-inf .accounts .accounts-r li span {
+  color: #ec1611;
+  font-size: 16px;
+}
+#box #cart .cart-con .cart-inf .accounts .accounts-r li i {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ec1611;
+}
+#box #footer {
+  width: 100%;
+  height: 100px;
+  padding-bottom: 12px;
+  border-top: 1px solid #e8e8e8;
+  margin-top: 30px;
+}
+#box #footer .footer-list {
+  margin: auto;
+  margin-top: 10px;
+  width: 600px;
+  overflow: hidden;
+}
+#box #footer .footer-list li {
+  float: left;
+}
+#box #footer .footer-list li span {
+  padding: 0 12px;
+  color: #999;
+}
+#box #footer .footer-list li a {
+  font-size: 12px;
+  color: #999;
+}
+#box #footer .footer-list li a:hover {
+  text-decoration: underline;
+  color: #ec1611;
+}
+#box #footer p {
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+  margin-top: 10px;
+}
+#box #footer p img {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+#box #footer p a {
+  color: black;
+}
+#box #footer p a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=shoppingCart.css.map */

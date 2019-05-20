@@ -1,0 +1,520 @@
+.zhezhao {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none; }
+  .zhezhao .box {
+    width: 510px;
+    height: 402px;
+    background: honeydew;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -201px -255px;
+    z-index: 1002; }
+    .zhezhao .box .head {
+      text-align: center;
+      font-size: 14px;
+      color: white;
+      height: 20px;
+      padding: 15px 20px 15px 30px;
+      border-bottom: 1px solid #d1d1d1;
+      background: #c7000b; }
+      .zhezhao .box .head span {
+        float: left;
+        cursor: pointer; }
+      .zhezhao .box .head i {
+        float: right;
+        width: 16px;
+        height: 16px;
+        cursor: pointer; }
+    .zhezhao .box .choice {
+      text-align: center;
+      cursor: pointer;
+      height: 32px;
+      width: 490px;
+      border-bottom: 1px #d1d1d1 solid;
+      margin: auto;
+      padding: 25px 0; }
+      .zhezhao .box .choice span {
+        display: inline-block;
+        line-height: 30px;
+        padding: 0 15px;
+        font-size: 14px;
+        color: white;
+        background: #dc0000;
+        border: 1px solid #dc0000;
+        margin-right: 10px; }
+      .zhezhao .box .choice i {
+        font-size: 14px;
+        color: #666;
+        padding: 0 15px;
+        display: inline-block;
+        margin: 0 10px 0 0;
+        background: #fff;
+        text-align: center;
+        line-height: 30px;
+        border: 1px solid #ccc; }
+
+#main {
+  width: 100%;
+  height: 570px;
+  padding-bottom: 45px; }
+  #main .commodity-index {
+    width: 1200px;
+    height: 38px;
+    margin: auto;
+    font-size: 12px;
+    line-height: 38px;
+    text-align: left;
+    color: #666; }
+    #main .commodity-index a {
+      float: left;
+      color: #666; }
+      #main .commodity-index a:hover {
+        text-decoration: underline;
+        color: #ec1611; }
+    #main .commodity-index em {
+      float: left;
+      padding: 0 5px; }
+    #main .commodity-index i {
+      float: left;
+      width: 175px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+  #main .commodity-inf {
+    width: 1200px;
+    height: 579px;
+    margin: auto; }
+    #main .commodity-inf .left {
+      width: 402px;
+      height: 520px;
+      float: left;
+      position: relative; }
+      #main .commodity-inf .left .imgbox {
+        width: 400px;
+        height: 400px;
+        border: 1px solid #e5e5e5;
+        position: relative;
+        overflow: hidden; }
+      #main .commodity-inf .left .small-img {
+        width: 402px;
+        height: 60px;
+        margin-top: 16px; }
+        #main .commodity-inf .left .small-img li {
+          width: 58px;
+          height: 58px;
+          border: 1px solid #e5e5e5;
+          float: left;
+          margin-right: 8px;
+          opacity: .7;
+          cursor: pointer; }
+        #main .commodity-inf .left .small-img .active {
+          border: 1px solid #ec1611;
+          opacity: 1; }
+      #main .commodity-inf .left .sanlian {
+        width: 100%;
+        height: 22px;
+        margin-top: 20px; }
+        #main .commodity-inf .left .sanlian a {
+          display: inline-block;
+          width: 40px;
+          height: 22px;
+          margin-right: 16px;
+          font-size: 12px;
+          color: #666; }
+          #main .commodity-inf .left .sanlian a:hover {
+            color: #ec1611; }
+            #main .commodity-inf .left .sanlian a:hover .sc {
+              background: url(../images/sl.png) -16px 0; }
+            #main .commodity-inf .left .sanlian a:hover .fx {
+              background: url(../images/sl.png) -48px 0; }
+            #main .commodity-inf .left .sanlian a:hover .jb {
+              background: url(../images/sl.png) -81px 0; }
+          #main .commodity-inf .left .sanlian a i {
+            float: left;
+            width: 13px;
+            height: 12px;
+            margin-top: 5px;
+            margin-right: 2px; }
+          #main .commodity-inf .left .sanlian a .sc {
+            background: url(../images/sl.png) 0 0; }
+          #main .commodity-inf .left .sanlian a .fx {
+            background: url(../images/sl.png) -32px 0; }
+          #main .commodity-inf .left .sanlian a .jb {
+            background: url(../images/sl.png) -65px 0; }
+          #main .commodity-inf .left .sanlian a span {
+            float: left;
+            margin-top: 3px; }
+        #main .commodity-inf .left .sanlian .sharing {
+          position: relative; }
+          #main .commodity-inf .left .sanlian .sharing:hover .hide {
+            display: block; }
+          #main .commodity-inf .left .sanlian .sharing .hide {
+            width: 80px;
+            height: 100px;
+            border: 1px solid #9c9696;
+            position: absolute;
+            bottom: -100px;
+            left: 0;
+            display: none; }
+    #main .commodity-inf .center {
+      width: 526px;
+      height: 100%;
+      float: left;
+      margin-left: 35px; }
+      #main .commodity-inf .center .title {
+        width: 100%; }
+        #main .commodity-inf .center .title h2 {
+          font-size: 16px;
+          font-weight: bold; }
+        #main .commodity-inf .center .title h3 {
+          font-size: 12px;
+          color: #e99494;
+          margin-top: 5px; }
+      #main .commodity-inf .center .rush-shopping {
+        width: 100%;
+        background: rgba(237, 146, 255, 0.3);
+        margin-top: 11px;
+        margin-bottom: 10px; }
+        #main .commodity-inf .center .rush-shopping .time-limit {
+          height: 40px;
+          background: #ff6767;
+          font-size: 14px;
+          line-height: 40px;
+          padding-left: 18px;
+          color: white; }
+          #main .commodity-inf .center .rush-shopping .time-limit span {
+            font-size: 12px; }
+        #main .commodity-inf .center .rush-shopping .price-inf {
+          width: 100%;
+          height: 129px;
+          padding-top: 12px;
+          padding-bottom: 9px;
+          padding-left: 18px; }
+          #main .commodity-inf .center .rush-shopping .price-inf .price {
+            height: 40px; }
+            #main .commodity-inf .center .rush-shopping .price-inf .price b {
+              color: #ec1611; }
+            #main .commodity-inf .center .rush-shopping .price-inf .price span {
+              font-size: 26px;
+              font-weight: 600;
+              color: #ec1611; }
+            #main .commodity-inf .center .rush-shopping .price-inf .price i {
+              font-size: 12px;
+              color: #666;
+              padding-left: 2px; }
+            #main .commodity-inf .center .rush-shopping .price-inf .price em {
+              font-size: 12px;
+              color: #666;
+              display: inline-block;
+              width: 135px;
+              background: url(../images/phone.png) no-repeat center left;
+              line-height: 40px;
+              padding-left: 15px;
+              margin-left: 15px;
+              cursor: pointer;
+              position: relative; }
+              #main .commodity-inf .center .rush-shopping .price-inf .price em:hover .rq-hide {
+                display: block; }
+              #main .commodity-inf .center .rush-shopping .price-inf .price em .rq-hide {
+                width: 132px;
+                height: 170px;
+                border: 1px solid #b3afaf;
+                position: absolute;
+                left: 0;
+                bottom: -180px;
+                padding: 4px 4px;
+                background: white;
+                display: none;
+                z-index: 5; }
+                #main .commodity-inf .center .rush-shopping .price-inf .price em .rq-hide img {
+                  width: 100%; }
+                #main .commodity-inf .center .rush-shopping .price-inf .price em .rq-hide p {
+                  color: black;
+                  font-size: 12px;
+                  text-align: center;
+                  line-height: 20px; }
+          #main .commodity-inf .center .rush-shopping .price-inf .time-over {
+            height: 26px;
+            font-size: 12px; }
+            #main .commodity-inf .center .rush-shopping .price-inf .time-over span {
+              float: left;
+              width: 14px;
+              height: 14px;
+              background: url(../images/djs.png);
+              margin-top: 7px;
+              margin-right: 10px; }
+            #main .commodity-inf .center .rush-shopping .price-inf .time-over i {
+              line-height: 26px; }
+          #main .commodity-inf .center .rush-shopping .price-inf .integral {
+            height: 26px;
+            margin-top: 5px;
+            line-height: 26px; }
+            #main .commodity-inf .center .rush-shopping .price-inf .integral span {
+              float: left;
+              font-size: 12px;
+              line-height: 16px;
+              text-align: center;
+              margin-top: 5px;
+              margin-right: 14px;
+              width: 44px;
+              height: 16px;
+              background: orange;
+              border-radius: 3px;
+              color: white; }
+            #main .commodity-inf .center .rush-shopping .price-inf .integral a {
+              float: left;
+              font-size: 12px;
+              margin-right: 15px;
+              color: #666;
+              position: relative; }
+              #main .commodity-inf .center .rush-shopping .price-inf .integral a:hover {
+                text-decoration: underline; }
+                #main .commodity-inf .center .rush-shopping .price-inf .integral a:hover .int-hide {
+                  display: block; }
+              #main .commodity-inf .center .rush-shopping .price-inf .integral a .int-hide {
+                width: 110px;
+                height: 142px;
+                border: 1px solid #cccccc;
+                position: absolute;
+                bottom: -157px;
+                left: 0;
+                background: white;
+                padding: 10px 10px;
+                line-height: 20px;
+                display: none; }
+                #main .commodity-inf .center .rush-shopping .price-inf .integral a .int-hide li:hover {
+                  text-decoration: underline; }
+          #main .commodity-inf .center .rush-shopping .price-inf .discounts {
+            height: 26px; }
+            #main .commodity-inf .center .rush-shopping .price-inf .discounts span {
+              float: left;
+              font-size: 12px;
+              line-height: 16px;
+              text-align: center;
+              margin-top: 5px;
+              margin-right: 14px;
+              width: 44px;
+              height: 16px;
+              background: #fe7393;
+              border-radius: 3px;
+              color: white; }
+            #main .commodity-inf .center .rush-shopping .price-inf .discounts i {
+              font-size: 12px;
+              line-height: 26px;
+              color: #fe7393; }
+              #main .commodity-inf .center .rush-shopping .price-inf .discounts i em {
+                padding-left: 20px;
+                cursor: pointer; }
+      #main .commodity-inf .center .purchase {
+        width: 100%;
+        height: auto;
+        margin-left: 18px; }
+        #main .commodity-inf .center .purchase dl {
+          margin-bottom: 4px;
+          overflow: hidden; }
+          #main .commodity-inf .center .purchase dl dt {
+            width: 49px;
+            height: 18px;
+            background: url(../images/new1.ccb9914b.png);
+            font-size: 12px;
+            color: white;
+            line-height: 18px;
+            text-align: center;
+            float: left;
+            margin-right: 11px; }
+          #main .commodity-inf .center .purchase dl dd {
+            float: left;
+            width: 454px;
+            font-size: 12px; }
+          #main .commodity-inf .center .purchase dl .address {
+            color: #666;
+            line-height: 18px; }
+            #main .commodity-inf .center .purchase dl .address i {
+              padding-left: 20px; }
+            #main .commodity-inf .center .purchase dl .address em {
+              padding: 0 10px;
+              cursor: pointer; }
+          #main .commodity-inf .center .purchase dl .serve p {
+            color: #666;
+            margin-bottom: 5px; }
+            #main .commodity-inf .center .purchase dl .serve p i {
+              display: inline-block;
+              width: 16px;
+              height: 16px;
+              background: #ec1611;
+              border-radius: 3px;
+              font-size: 12px;
+              color: white;
+              text-align: center;
+              margin-bottom: 6px;
+              margin-right: 5px; }
+          #main .commodity-inf .center .purchase dl .color div {
+            width: 33px;
+            height: 33px;
+            border: 1px solid #ccc;
+            float: left;
+            margin-right: 6px;
+            margin-bottom: 6px;
+            cursor: pointer; }
+          #main .commodity-inf .center .purchase dl .color .active2 {
+            border: 2px solid #e02f2f; }
+          #main .commodity-inf .center .purchase dl .size div {
+            padding: 0 8px;
+            float: left;
+            border: 1px solid #ccc;
+            height: 22px;
+            margin-right: 6px;
+            margin-bottom: 6px;
+            line-height: 22px;
+            cursor: pointer; }
+            #main .commodity-inf .center .purchase dl .size div:hover {
+              color: #ec1611; }
+          #main .commodity-inf .center .purchase dl .size .active3 {
+            border: 2px solid #e02f2f; }
+          #main .commodity-inf .center .purchase dl .amount span {
+            color: #666;
+            line-height: 30px;
+            padding-left: 10px; }
+          #main .commodity-inf .center .purchase dl .amount i {
+            float: left;
+            width: 24px;
+            height: 28px;
+            border: 1px solid #ccc;
+            text-align: center;
+            line-height: 26px;
+            cursor: pointer; }
+          #main .commodity-inf .center .purchase dl .amount #num {
+            float: left;
+            width: 38px;
+            height: 18px;
+            border: 1px solid #ccc;
+            padding: 5px 5px;
+            text-align: center;
+            border-left: none;
+            border-right: none; }
+        #main .commodity-inf .center .purchase .m-eleven {
+          margin-bottom: 11px; }
+          #main .commodity-inf .center .purchase .m-eleven .color img {
+            width: 100%; }
+        #main .commodity-inf .center .purchase .m-t {
+          margin-top: 12px; }
+        #main .commodity-inf .center .purchase .operation {
+          height: 55px;
+          margin-top: 13px; }
+          #main .commodity-inf .center .purchase .operation input {
+            width: 158px;
+            height: 53px;
+            border: 1px solid #ec1611;
+            margin-right: 10px;
+            font-size: 20px; }
+            #main .commodity-inf .center .purchase .operation input:hover {
+              opacity: .9; }
+          #main .commodity-inf .center .purchase .operation #buy {
+            background: white;
+            color: #ec1611;
+            cursor: pointer; }
+          #main .commodity-inf .center .purchase .operation #add-carts {
+            background: #ec1611;
+            color: white;
+            cursor: pointer; }
+        #main .commodity-inf .center .purchase .safeguard {
+          margin-top: 10px; }
+          #main .commodity-inf .center .purchase .safeguard a {
+            font-size: 12px;
+            color: #666;
+            float: left;
+            margin-right: 10px; }
+            #main .commodity-inf .center .purchase .safeguard a i {
+              float: left;
+              width: 16px;
+              height: 16px;
+              background: #ec1611;
+              border-radius: 3px;
+              color: white;
+              margin-right: 4px;
+              text-align: center; }
+    #main .commodity-inf .right {
+      margin-left: 20px;
+      width: 168px;
+      height: 480px;
+      border: 1px solid #cccccc;
+      float: left;
+      padding: 0 15px; }
+      #main .commodity-inf .right h4 {
+        width: 168px;
+        height: 48px;
+        padding-top: 19px;
+        border-bottom: 1px dashed #666; }
+        #main .commodity-inf .right h4 a {
+          float: left;
+          width: 120px;
+          height: 40px;
+          font-size: 12px;
+          font-weight: bold;
+          color: #666; }
+        #main .commodity-inf .right h4 span {
+          float: right;
+          margin-top: 5px; }
+      #main .commodity-inf .right .honor {
+        width: 168px;
+        padding: 5px 0;
+        border-bottom: 1px dashed #666; }
+        #main .commodity-inf .right .honor li {
+          line-height: 42px;
+          font-size: 12px;
+          color: #666;
+          overflow: hidden; }
+          #main .commodity-inf .right .honor li i {
+            float: left; }
+          #main .commodity-inf .right .honor li span {
+            float: left;
+            width: 24px;
+            height: 24px;
+            background: url(../images/xy.png) 0 -72px;
+            margin-top: 9px;
+            margin-right: 8px; }
+          #main .commodity-inf .right .honor li em {
+            float: left;
+            width: 20px;
+            height: 20px;
+            background: url(../images/zz.png);
+            margin-top: 11px; }
+      #main .commodity-inf .right .grade {
+        width: 168px;
+        padding-top: 12px; }
+        #main .commodity-inf .right .grade li {
+          line-height: 42px;
+          font-size: 12px;
+          color: #666; }
+          #main .commodity-inf .right .grade li span {
+            color: #ec1611; }
+      #main .commodity-inf .right .gointo {
+        width: 168px;
+        height: 30px;
+        margin-top: 20px;
+        text-align: center; }
+        #main .commodity-inf .right .gointo input {
+          width: 68px;
+          height: 28px;
+          border: 1px solid #ec1611;
+          color: #ec1611;
+          font-size: 12px;
+          background: white;
+          border-radius: 2px;
+          margin-right: 2px;
+          cursor: pointer; }
+
+#standby {
+  width: 1200px;
+  height: 500px;
+  background: skyblue;
+  opacity: .1;
+  margin: auto; }
+
+/*# sourceMappingURL=detail.css.map */

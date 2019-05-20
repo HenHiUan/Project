@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: auto; }
+
+#box {
+  width: 100%;
+  height: 100%;
+  background: #f6f6f6; }
+  #box .box-con {
+    width: 980px;
+    height: 100%;
+    margin: auto; }
+    #box .box-con .con-header {
+      width: 100%;
+      height: 57px;
+      padding-top: 20px;
+      padding-bottom: 10px; }
+      #box .box-con .con-header .h1-logo {
+        width: 232px;
+        height: 57px;
+        background: url(../images/login_logo.jpg) no-repeat center center;
+        float: left; }
+        #box .box-con .con-header .h1-logo a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-indent: -9999px; }
+      #box .box-con .con-header .go-loging {
+        float: right;
+        margin-top: 35px; }
+        #box .box-con .con-header .go-loging span {
+          font-size: 12px;
+          color: #3d3c3c; }
+        #box .box-con .con-header .go-loging a {
+          font-size: 12px;
+          color: #428bca; }
+          #box .box-con .con-header .go-loging a:hover {
+            text-decoration: underline; }
+    #box .box-con .con-main {
+      width: 100%;
+      height: 510px;
+      background: white;
+      padding: 40px 60px;
+      box-sizing: border-box; }
+      #box .box-con .con-main .left {
+        width: 430px;
+        height: 100%;
+        float: left; }
+        #box .box-con .con-main .left .commom {
+          width: 410px;
+          height: 36px;
+          padding: 15px 0;
+          padding-left: 20px; }
+          #box .box-con .con-main .left .commom label {
+            display: inline-block;
+            width: 74px;
+            height: 36px;
+            text-align: right;
+            line-height: 36px;
+            font-size: 14px; }
+          #box .box-con .con-main .left .commom input {
+            width: 285px;
+            height: 30px;
+            border: 1px solid #999;
+            padding: 2px 3px;
+            border-radius: 5px;
+            padding-left: 8px; }
+          #box .box-con .con-main .left .commom .verification {
+            width: 115px;
+            height: 30px;
+            margin-top: -1px; }
+          #box .box-con .con-main .left .commom .obtain {
+            width: 155px;
+            height: 34px;
+            border: 1px solid #999;
+            display: inline-block;
+            border-radius: 5px;
+            margin-left: 10px;
+            text-align: center;
+            line-height: 34px;
+            font-size: 14px;
+            color: #999999;
+            cursor: pointer; }
+          #box .box-con .con-main .left .commom p {
+            margin-left: 75px;
+            font-size: 12px;
+            padding: 3px 3px;
+            color: #999; }
+          #box .box-con .con-main .left .commom .agree {
+            display: block;
+            width: 178px;
+            height: 28px;
+            border: 1px solid #e93a3a;
+            border-radius: 3px;
+            color: white;
+            background: #ff3b37;
+            text-align: center;
+            line-height: 28px;
+            font-size: 14px;
+            margin-left: 78px; }
+            #box .box-con .con-main .left .commom .agree:hover {
+              opacity: .7; }
+          #box .box-con .con-main .left .commom #sliding {
+            width: 300px;
+            height: 32px;
+            background: rgba(201, 199, 199, 0.5);
+            margin-left: 77px;
+            position: relative; }
+            #box .box-con .con-main .left .commom #sliding #inf {
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              font-size: 12px;
+              color: #4d4d4d;
+              line-height: 32px;
+              text-align: center;
+              z-index: 2; }
+            #box .box-con .con-main .left .commom #sliding #bgc {
+              height: 100%;
+              background: #7ac23c;
+              position: absolute;
+              color: white;
+              font-size: 12px;
+              line-height: 32px;
+              text-align: center; }
+            #box .box-con .con-main .left .commom #sliding #move {
+              width: 40px;
+              height: 32px;
+              background: #fff;
+              border: 1px solid #ccc;
+              position: absolute;
+              top: -1px;
+              z-index: 3;
+              line-height: 32px;
+              color: #737383;
+              text-align: center; }
+              #box .box-con .con-main .left .commom #sliding #move i {
+                font-size: 12px;
+                color: white;
+                line-height: 20px;
+                text-align: center;
+                display: block;
+                width: 20px;
+                height: 20px;
+                background: #76c61d;
+                float: left;
+                border-radius: 50%;
+                margin-top: 7px;
+                margin-left: 10px;
+                display: none; }
+        #box .box-con .con-main .left .treaty {
+          padding-left: 20px;
+          margin-top: 12px;
+          margin-bottom: 4px; }
+          #box .box-con .con-main .left .treaty .checkbox {
+            width: 13px;
+            height: 13px;
+            margin-left: 78px; }
+          #box .box-con .con-main .left .treaty .read {
+            font-size: 12px;
+            color: #999999; }
+            #box .box-con .con-main .left .treaty .read a {
+              color: #999; }
+              #box .box-con .con-main .left .treaty .read a:hover {
+                text-decoration: underline; }
+      #box .box-con .con-main .right {
+        width: 430px;
+        height: 190px;
+        float: right;
+        position: relative; }
+        #box .box-con .con-main .right p {
+          font-size: 12px;
+          color: #3d3c3c;
+          position: absolute;
+          width: 142px;
+          margin-left: -71px;
+          left: 50%;
+          top: 40px;
+          z-index: 3;
+          background: white;
+          text-align: center; }
+        #box .box-con .con-main .right .more-loging {
+          width: 395px;
+          height: 100px;
+          border-top: 1px solid #999;
+          position: absolute;
+          top: 48px;
+          padding: 20px 0;
+          padding-left: 35px; }
+          #box .box-con .con-main .right .more-loging .loging-show {
+            width: 100%;
+            margin-top: 10px;
+            height: 30px; }
+            #box .box-con .con-main .right .more-loging .loging-show a {
+              float: left;
+              width: 108px;
+              height: 28px;
+              border: 1px solid #999;
+              border-radius: 3px;
+              margin-left: 16px;
+              font-size: 14px;
+              color: #3d3c3c;
+              text-align: center;
+              line-height: 28px;
+              background: #f2f2f2; }
+              #box .box-con .con-main .right .more-loging .loging-show a:hover {
+                opacity: .7; }
+            #box .box-con .con-main .right .more-loging .loging-show span {
+              float: left;
+              margin-left: 16px;
+              padding: 0 10px;
+              font-size: 12px;
+              color: #3d3c3c;
+              margin-top: 10px;
+              cursor: pointer; }
+          #box .box-con .con-main .right .more-loging .loging-hide {
+            width: 100%;
+            margin-top: 10px;
+            height: 30px;
+            display: none; }
+            #box .box-con .con-main .right .more-loging .loging-hide a {
+              float: left;
+              width: 108px;
+              height: 28px;
+              border: 1px solid #999;
+              border-radius: 3px;
+              margin-left: 16px;
+              font-size: 14px;
+              color: #3d3c3c;
+              text-align: center;
+              line-height: 28px;
+              background: #f2f2f2; }
+              #box .box-con .con-main .right .more-loging .loging-hide a:hover {
+                opacity: .7; }
+    #box .box-con .con-footer {
+      width: 100%;
+      height: 22px;
+      padding: 20px 0; }
+      #box .box-con .con-footer p {
+        font-size: 12px;
+        color: #999;
+        text-align: center;
+        line-height: 22px; }
+        #box .box-con .con-footer p a {
+          color: black; }
+          #box .box-con .con-footer p a:hover {
+            color: #c00;
+            text-decoration: underline; }
+
+/*# sourceMappingURL=register.css.map */
